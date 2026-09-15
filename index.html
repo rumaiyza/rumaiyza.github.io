@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rumaiyza Zynab • Links</title>
+  <title>Rumaiyza Zynab</title>
   <style>
     body {
       background-color: #000;
@@ -11,36 +11,40 @@
       padding-top: 80px;
     }
 
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      text-decoration: none;
-      color: #fff;
-      font-size: 20px;
-      transition: 0.2s;
-    }
-
-    a:hover {
-      background-color: #222;
-    }
-
-    a:first-of-type img {
-      width: 85px;
-      height: 70px;
-    }
-
-    img {
-      width: 30px;
-      height: 30px;
-    }
-
     .icon {
       width: 27px;
       height: 27px;
       vertical-align: middle;
       margin-right: 10px;
+    }
+
+    .links-row {
+      display: flex;
+      justify-content: center;
+      gap: 60px; 
+      margin-top: 40px;
+    }
+
+    .link-item {
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.2s;
+    }
+
+    .link-item:hover {
+      opacity: 0.7;
+    }
+
+    .link-item img {
+      width: 60px;
+      height: 60px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    .link-item span {
+      font-size: 18px;
     }
   </style>
 </head>
@@ -54,12 +58,14 @@
   <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbvkx-Qmz778-eNR4R4m6mdJJLS9Doa1dpOSh4T6J0YA&s=10" class="icon"> rumaiyza.zynab@gmail.com</p>
   <p><img src="phone.png" class="icon"> 050 613 6234</p>
   <p><img src="https://cdn-icons-png.flaticon.com/512/9668/9668873.png" class="icon"> Abu Dhabi, UAE</p>
-  
-  <a href="https://linkedin.com/in/rumaiyza" target="_blank">
-    <img src="linkedin.png"></a>
-  <a href="https://github.com/rumaiyza" target="_blank">
-    <img src="github.png"><img src="https://static.freepnglogo.com/images/all_img/github-white-logo-d748.png" style="width: 85px; height: 50px;"></a>
-  <a href="https://raw.githubusercontent.com/rumaiyza/links/main/Rumaiyza%20Zynab-Resume.pdf" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/1251/1251847.png">Resume</a>
+
+  <div class="links-row">
+    <a class="link-item" href="https://linkedin.com/in/rumaiyza" target="_blank">
+      <img src="linkedin.png"><span>LinkedIn</span></a>
+    <a class="link-item" href="https://github.com/rumaiyza" target="_blank">
+      <img src="github.png"><span>Github</span></a>
+    <a class="link-item" href="https://raw.githubusercontent.com/rumaiyza/links/main/Rumaiyza%20Zynab-Resume.pdf" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/1251/1251847.png"><span>LinkedIn</span></a>
+  </div>
 </body>
 </html>
