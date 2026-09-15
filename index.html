@@ -3,13 +3,55 @@
 <head>
   <title>Rumaiyza Zynab • Links</title>
   <style>
-    body { font-family: Arial; padding: 40px; }
-    a { display: block; margin: 10px 0; font-size: 20px; }
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .link-container {
+      margin: 20px auto;
+      width: 300px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background-color: #111;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      background-color: #222;
+    }
+
+    img {
+      width: 28px;
+      height: 28px;
+    }
   </style>
 </head>
+
 <body>
-  <a href="linkedin.com/in/rumaiyza" target="_blank">LinkedIn</a>
-  <a href="github.com/rumaiyza" target="_blank">GitHub</a>
-  <a href="github.com/rumaiyza/links/blob/main/Rumaiyza%20Zynab%20%E2%80%A2%20Resume.pdf" target="_blank">Resume</a>
+  <div class="link-container">
+    <a href="https://linkedin.com/in/rumaiyza" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">LinkedIn</a>
+
+    <a href="https://github.com/rumaiyza" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">GitHub</a>
+
+    <a href="https://raw.githubusercontent.com/rumaiyza/links/main/Rumaiyza%20Zynab%20-%20Resume.pdf" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png">Resume</a>
+  </div>
 </body>
 </html>
